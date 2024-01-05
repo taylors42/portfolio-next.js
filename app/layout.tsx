@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mainFont.className}>
-        <div className='flex mt-[3rem] justify-center'>{children}</div>
+        <div className="flex justify-center mt-[3rem]">{children}</div>
         </body>
     </html>
   )
